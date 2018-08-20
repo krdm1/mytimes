@@ -1,9 +1,55 @@
-header {
+
+div {
+  border: 3px solid black;
+}
+
+#header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border: 3px solid black;
+  align-items: center;
 }
-h1 {
+
+#logo {
   color: MediumAquamarine;
+}
+
+.main {
+  display: flex;
+  border: 3px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.column.large {
+  width: 630px;
+  justify-content: flex-start;
+}
+.column.medium {
+  width: 300px;
+}
+.column.small {
+  width: 240px;
+}
+.headline.image {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.headline.image.concert {
+  background-image: url("../images/dining.png");
+}
+.headline.image.fall {
+    background-image: url("../images/fall.png");
+}
+.headline.image.camera {
+    background-image: url("../images/camera.png");
+}
+
+.headline.image.cat {
+  background-image: url("../images/catceo.png");
 }
